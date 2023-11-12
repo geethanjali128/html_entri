@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h3 style="text-align: center;">USER DATA</h3>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>personal info:</legend>
+        <label for="fname">firstname</label><br>
+        <input type="text" id="fname"  name="fname" autofocus="on" ><br>
+        <label for="lname">lastname</label><br>
+        <input type="text" id="lname"  name="lname" ><br>
+        <label for="email">email</label><br>
+        <input type="email" id="email" multiple  size="30"><br>
+        <label for="age">age</label><br>
+        <input type="number" id="age" name="age" required><br>
+   
+        <h4>please select your  gender</h4>
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="gender">male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="other">others</label>
+    </fieldset>
+       <h4>choose a electronic</h4>
+        <input type="checkbox" id="tv" name="gadget2" value="TV">
+        <label for="tv">TV</label><br>
+        <input type="checkbox" id="refrigrator" name="gadget1" value=refrigrator>
+        <label for="refrigrator">REFRIGRATOR</label><br>
+        <input type="checkbox" id="ac" name="gadget3" value="air conditioner">
+        <label for="ac">A.C</label><br>
+        <input type="checkbox" id="machine" name="gadget4" value="washing machine">
+        <label for="machine">WASHING MACHINE</label><br>
+        <input type="checkbox" id="machine" name="gadget5" value="oven">
+        <label for="machine">OVEN</label><br>
+        <label for="date"><b>date</b></label><br>
+        <input type="date" id="date" name="date" min=""><br>
+       <input type="file" id="file" name="file"><br>
+       <input type="image" src="tulips.jpg" alt="tulips_image" height="100px" width="100">
+        <label for="pw"><b>password</b></label><br>
+        <input type="password" id="pw" name="password" maxlength="8" minlength="5" required><br>
+        <label for="colors">choose color</label><br>
+        <select id="colors" name="color" size="2" multiple>
+            <option value="red">Red</option>
+            <option value="pink">Pink</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="purple">purple</option>
+        </select><br>
+        <textarea name="feedback" rows="10" cols="50">give your valuable feedback:</textarea><br>
+        <input type="reset"><br><hr>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
