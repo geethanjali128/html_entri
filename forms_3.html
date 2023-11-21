@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form autocomplete="on" >
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" value="" required multiple><br><br>
+        <label for="age">age</label>
+        <input type="number" id="age" name="age" value="18"  min="18" max="60" step="1" disabled><br><br>
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" value="" required maxlength="5" size="16" autofocus><br><br>
+        <p>select the gender below</p>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Male</label><br>
+        <input type="radio" id="gender" name="gender" checked>
+        <label for="gender">Female</label><br>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Others</label><br><br>
+        <textarea rows="5" cols="10">
+
+        </textarea><br><br>
+        <p>select below</p>
+        <select name="electronics" multiple size="1">
+            <option value="refridgerator">refridgerator</option>
+            <option value="Air Conditioner" slected>Air Conditioner</option>
+            <option value="Television" >Television</option>
+            <option value="Washing Machine">Washing Machine</option>
+        </select>
+        <input type="reset"><br><br>
+        <input type="submit">
+        
+
+
+
+    </form>
+    
+</body>
+</html>
